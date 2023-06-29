@@ -27,44 +27,62 @@
     
     <div class="content">
         <div class="about-me">
-            <img src="C:\Users\Mari_\Downloads\dressed up.jpg" class="float-left" />
+            <img src="./assets/dressed up.jpg" class="float-left" />
             <h2>About Me</h2>
             <p>
                 Follow along with me through my coding journey to become a full stack web developer!
             </p>
         </div>
         <div id="my-work" class="my-work">
-            <a href="https://amariharris.github.io/student-mini-project1/"><img src="C:\Users\Mari_\OneDrive\Pictures\Screenshots\portfolio-work.png" class="float-right" /></a>
+            <a href="https://amariharris.github.io/student-mini-project1/"><img src="./assets/portfolio-work.png" class="float-right" /></a>
+            <a href="https://amariharris.github.io/student-mini-project1/"><img src="./assets/placeholder.png" class="float-right" /></a>
+            <a href="https://amariharris.github.io/student-mini-project1/"><img src="./assets/placeholder.png" class="float-right" /></a>
             <h2>My Work</h2>
             <p>
                 This is what I have thus far!
             </p>
         </div>
-        <div id="contact-me" class="contact-me">
+        <form action="mailto:mari_harris@icloud.com" method="get" enctype="text/plain" id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-            <form action="action_page.php">
-
+            
+              <div class="input-row">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
             
-                <label for="lname">Last Name</label>
+               <div class="input-row">
+            <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
+               </div>
+            <div class="input-row">
                 <label for="country">Country</label>
                 <select id="country" name="country">
                   <option value="australia">Australia</option>
                   <option value="canada">Canada</option>
                   <option value="usa">USA</option>
                 </select>
+            </div>
             
-                <label for="subject">Subject</label>
+               <div class="input-row"><label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+                </div>
             
-                <input type="submit" value="Submit">
-    </div>
+               <div class="input-row">            
+                <input type="submit" value="Send">
+            </div>
+        </form>
     <div class="footer">
-        <h2></h2>
-        </p>
+        <ul>
+            <li>
+                <a href="google.com">About Me</a>
+            </li>
+            <li>
+                <a href="google.com">My Work</a>
+            </li>
+            <li>
+                <a href="www.google.com" target="_blank">Contact Me</a>
+            </li>
+        </ul>
     </div>
 </body>
 
